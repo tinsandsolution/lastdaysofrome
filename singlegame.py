@@ -8,7 +8,7 @@ thinking = 0
 gameOvers = {}
 
 def sprint(s, indents = 1):
-    time.sleep(.01)
+    time.sleep(0.75)
     indents = "\t" * indents
     print(f"{indents}{s}")
     pass
